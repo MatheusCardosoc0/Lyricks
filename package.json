@@ -13,7 +13,6 @@
     "autoprefixer": "^10.4.13",
     "axios": "^1.1.3",
     "next": "13.0.3",
-    "phosphor": "^0.7.1",
     "phosphor-react": "^1.4.1",
     "postcss": "^8.4.19",
     "prisma": "^4.6.1",
