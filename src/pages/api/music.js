@@ -13,6 +13,6 @@ export default async function Music(request, response){
       }
     })
   
-    return response.json(musics)
+    return response.status(200).json( musics )
   
 }

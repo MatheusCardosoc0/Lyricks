@@ -12,7 +12,7 @@ export function ContextProvider({ children }) {
   const [showMenu, setShowMenu] = useState(false)
 
   useEffect(() => {
-    axios.get('https://lyricks-bc93.vercel.app/api/music').then(response => {
+    axios.get('http://localhost:3000/api/music').then(response => {
       setMusics(response.data)
     })
   }, [])
